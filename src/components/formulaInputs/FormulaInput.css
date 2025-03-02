@@ -1,0 +1,88 @@
+
+.formula-input-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .formula-tokens {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .token {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .edit-input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .input-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tag-input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-btn, .operand-btn {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .operand-btn {
+    background: #28a745;
+  }
+  
+  .suggestions {
+    margin-bottom: 20px;
+  }
+  
+  .suggestions h4 {
+    margin: 0;
+  }
+  
+  .suggestions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .suggestion-item {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .suggestion-item:hover {
+    background: #f0f0f0;
+  }
